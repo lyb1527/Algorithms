@@ -89,3 +89,14 @@ g.addEdge(5,2,1)
 for v in g:
     for w in v.getConnections():
         print("(%s, %s)" % (v.getID(), w.getID()))
+        
+ #output
+(0, 5)
+(0, 1)
+(1, 2)
+(2, 3)
+(3, 5)
+(3, 4)
+(4, 0)
+(5, 2)
+(5, 4)
